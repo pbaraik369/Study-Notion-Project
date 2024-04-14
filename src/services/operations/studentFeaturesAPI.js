@@ -46,6 +46,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
             throw new Error(orderResponse.data.message);
         }
         console.log("PRINTING orderResponse", orderResponse);
+        console.log("oder currency : ",orderResponse.data.data.currency);
         //options
         const options = {
             key: process.env.REACT_APP_RAZORPAY_KEY_ID,
