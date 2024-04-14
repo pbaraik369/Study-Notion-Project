@@ -15,11 +15,6 @@ Responsive Design: Accessible on all devices, including desktop, tablet, and mob
 
 
 
-Project Link
-Explore Study Notion: https://studynotion-edtech-project.vercel.app/
-
-
-
 Tech Stack
 Frontend: React
 Backend: Express.js
